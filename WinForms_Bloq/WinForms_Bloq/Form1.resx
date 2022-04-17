@@ -1,0 +1,700 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LOADbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="LOADbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
+  <data name="LOADbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LOADbutton.Text" xml:space="preserve">
+    <value>Wczytaj Schemat</value>
+  </data>
+  <data name="&gt;&gt;LOADbutton.Name" xml:space="preserve">
+    <value>LOADbutton</value>
+  </data>
+  <data name="&gt;&gt;LOADbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LOADbutton.Parent" xml:space="preserve">
+    <value>FileBox</value>
+  </data>
+  <data name="&gt;&gt;LOADbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SAVEbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="SAVEbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
+  <data name="SAVEbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SAVEbutton.Text" xml:space="preserve">
+    <value>Zapisz Schemat</value>
+  </data>
+  <data name="&gt;&gt;SAVEbutton.Name" xml:space="preserve">
+    <value>SAVEbutton</value>
+  </data>
+  <data name="&gt;&gt;SAVEbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SAVEbutton.Parent" xml:space="preserve">
+    <value>FileBox</value>
+  </data>
+  <data name="&gt;&gt;SAVEbutton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NEWbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="NEWbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
+  <data name="NEWbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NEWbutton.Text" xml:space="preserve">
+    <value>Nowy Schemat</value>
+  </data>
+  <data name="&gt;&gt;NEWbutton.Name" xml:space="preserve">
+    <value>NEWbutton</value>
+  </data>
+  <data name="&gt;&gt;NEWbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NEWbutton.Parent" xml:space="preserve">
+    <value>FileBox</value>
+  </data>
+  <data name="&gt;&gt;NEWbutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FileBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="FileBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 3</value>
+  </data>
+  <data name="FileBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 146</value>
+  </data>
+  <data name="FileBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FileBox.Text" xml:space="preserve">
+    <value>Plik</value>
+  </data>
+  <data name="&gt;&gt;FileBox.Name" xml:space="preserve">
+    <value>FileBox</value>
+  </data>
+  <data name="&gt;&gt;FileBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;FileBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="textBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 87</value>
+  </data>
+  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
+    <value>textBox</value>
+  </data>
+  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 178</value>
+  </data>
+  <data name="EditionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="EditionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EditionTextBox.Text" xml:space="preserve">
+    <value>Tekst zaznaczonego bloku:</value>
+  </data>
+  <data name="&gt;&gt;EditionTextBox.Name" xml:space="preserve">
+    <value>EditionTextBox</value>
+  </data>
+  <data name="&gt;&gt;EditionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditionTextBox.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;EditionTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DELETEbutton.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="DELETEbutton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DELETEbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAbVJREFUaEPt09GKAkEQQ1H//6fdQm9kGtYHSeKo9HkzA9WpAi/XD3ARfp/nAxqs
+        SE+yz7HY51jscyz2ORbF59mvhmeiWuegchmP5exzLPY5Fq1zDCrX8ExU8RzfaJ9j8a1/Ft5Iy8+l71vw
+        ZE54IjXfi7cTorNOwvMJv3COQQNbbtB/+JbG9AM+2FrnIL0helKaby9+JT3ggyczZVBKSJ/nd6RCKqRC
+        KqRC6slMGZQS0ubCpELqyUwZlBLS5sKkQurJTBmUEtLmwqRC6slMGZQS0ubCpELqyUwZlBLS5sKkQurJ
+        TBmUEtLmwqRC6slMGZQS0ubCpELqyUwZlBLS5sKkQurJTBmUEtLmwqRC6slMGZQS0ubCpELqyUwZlBLS
+        5sKkQurJTBmUEtLmwqRC6slMGZQS0ubCpELqyUwZlBLS5sKkQurJTBmUEtLmwqRC6slMGZQS0ubCpELq
+        yUwZlBLSG6Injfn2+lc+CKknM2VQSkibeElIPa1zDD508MYBHzzFcwy+pTH9gA+2ZGOqnYEGtl84B88n
+        JGcNCr4RD4eEx93RtI/3cirneKB1GtMLuuf4MtfrH/mg0yd0bHPrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="DELETEbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 125</value>
+  </data>
+  <data name="DELETEbutton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DELETEbutton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DELETEbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DELETEbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;DELETEbutton.Name" xml:space="preserve">
+    <value>DELETEbutton</value>
+  </data>
+  <data name="&gt;&gt;DELETEbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DELETEbutton.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;DELETEbutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LINK_button.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="LINK_button.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LINK_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAT9JREFUaEPt0EEOxCAMQ9He/9KdSv0ZkR2mYFjkLYMSI193aVQdyYY6rjW4/o21
+        Dj6+GGFDfHXwWQsidaY6+KYRwaKqI3HUwQcbPMzD3Yw3xYY6mC5AQGCqcNRhQw2BqaLqSKqOpOpIqo5k
+        aGcNrn/AocBUoe2QsxhhOvYDU4WwQ4gFkSKWA1NF7w4JRgQr2AxMFVVH0rXD+QYP83A3460ba4GpYqQO
+        pgsQEJh2Yy0wVVQdyVl1fMT/AlNF1ZE46mAtMF2AgMBUUXUkG+p48TYJRxs8iBx1PNg0IlhUdSSmOh4s
+        WxCp89XxYH8lkkZZ6/jj0FSc/mZPHceqOpKqI6k6kqojOasOAgJTo5E6XrxNwtEGD169qfzRiGCvqiMR
+        UvmmBZF2WjCfXYmkTQbj+ftUnN7qiE+co+pIqo7Gff8A5qMz402DykMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="LINK_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 125</value>
+  </data>
+  <data name="LINK_button.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="LINK_button.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="LINK_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="LINK_button.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LINK_button.Name" xml:space="preserve">
+    <value>LINK_button</value>
+  </data>
+  <data name="&gt;&gt;LINK_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LINK_button.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;LINK_button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ENDbutton.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="ENDbutton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ENDbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAcBJREFUaEPtlEuOxCAMROcgs5z736zP0GOJEsLFzySEgOSnt2rb2KlF/3ydBI9D
+        4XEoPA7F6jg+v39DYmwVD8ZBHzZRLHiAyXHQ3QvE4knMiYNOfEWcco+7cdBNO4jLLnExDrrALubN0Lhd
+        zA9yJQ5a3BADU6EVbTFjZiwOWlYUrUug1UXRasMaB+3IRd9L0DG56OthioOeTkXHNtB5qeho0o+DHk1F
+        x37QnVGU63TioOeiKG8MHRxFuUIrDnooiNoh0PFB1EqMxYHCUdAniCiUqMZBT4goHAh9iIhChjUO/Hos
+        xs/xOBTlOIzDZ2H5KI9D4XEoPA6F/5UqPA6FNQ4RhQOhDxFRyKjGIdATIgpHQZ8golBiLA4RtUOg44Oo
+        lWjFIdBDQdS2h84OolahE4dAz0VR3hI6NYpynX4cAj2aio5toPNS0dHEFIdAT+ei7yXomFz09bDGIdCC
+        muheAq2uiW4DA3EEaFNbzEyFVrTFjJnhOAK01SiGB6FHjGJ4kItxBOiCTcRxl7gVR4QOekWcco85cUTo
+        xAVi8SQmx5FCd08UCx7gwTiK0IdZxOQSVsexOR6HwuNQeBwKjyPh+/0HsD90FApJuPEAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="ENDbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 72</value>
+  </data>
+  <data name="ENDbutton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="ENDbutton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="ENDbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="ENDbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ENDbutton.Name" xml:space="preserve">
+    <value>ENDbutton</value>
+  </data>
+  <data name="&gt;&gt;ENDbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ENDbutton.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;ENDbutton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="STARTbutton.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="STARTbutton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="STARTbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAcFJREFUaEPtlFGO5CAMBfcic/8T7JXmGj2WKEXwAsSkCQGJUn21bey8j/732UTs
+        OBJ2HAk7joShcfz//WmSsYE8FYd8WEdZ8Aw945C7B8jifnSIQ058RU75mq/ikJtmkMvucicOucAv825k
+        3C/z7TTHIYsrMtAVWVGXmRYa4pBlWWkdgqzOSqsbVxyy4yx9LyHHnKXPwXUc8nQsHdMg58XSccVFHPJo
+        LB3zIXceUq5Si0OeO6Q8MXLwIeUyxTjkoSC1RZDjg9QKNMRBYSnkE0wKBfJxyBMmhQWRDzEp5HDFwa/L
+        4v+cHUdCJg7/8EI4P2rHkbDjSNhxJOy/0oQdR4IrDpPCgsiHmBRy5OMw5AmTwlLIJ5gUCjTEYVJbBDk+
+        SK1AMQ5DHgpSmx45O0itTC0OQ547pDwlcuoh5SoXcRjyaCwd0yDnxdJxxXUchjx9lr6XkGPO0ufAFYch
+        C0rSPQRZXZJuH944ArKpLjNdkRV1mWmhLY6AbHXKcCPyiFOG27kTR0AumESOu8v9OA7koFfklK/pEMeB
+        nDhAFvejZxwxcndHWfAMT8WRRT7MI5OjGBrH/Ow4EnYcCTuOhB1HxOfzB7PuOzSOBzbUAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="STARTbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="STARTbutton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="STARTbutton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="STARTbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="STARTbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;STARTbutton.Name" xml:space="preserve">
+    <value>STARTbutton</value>
+  </data>
+  <data name="&gt;&gt;STARTbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;STARTbutton.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;STARTbutton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DECbutton.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="DECbutton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DECbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAbJJREFUaEPt0UtugzAUBdDuf9OpFJ9KQc0FDP4w8Jk1XL9ff17Lh3WOjXWOjXWO
+        jUec4+ePv+eZPIEzbPk2w5ze9t4lOtbornY9zbNRxvWz3yVK9Deik51uU66nvj3ssUv0zU+7RPvoVd3s
+        u0S/kcjkWmtf17y7RI9IZ3LttKxoxkyukseZXAttapkrk7tBoUzunrtVzJLJNaJoJnfV9ff6Z3IdaJDJ
+        1bvyUs9MrjPNMrkadW/0yeQG0jiTO+dsWu1MbhJDZHJHjnPqZXIPYKBMLjtIKBMIPYzhAqFg77MC30g8
+        mEG/kfhmnWPjYDEFAqGHMVwgFByvpEwm9wAGyuSys8uol8lNYohM7kjdGmpncgNpnMmdc2UBfTK5zjTL
+        5GpcH13PTK4DDTK5eneH1j+Ta0TRTO6qNuOaJZO7QaFM7p6W/z1zZXKVPM7kWmhZqzBjJneCB5lcO+0r
+        FubN5AKhTK61XnULs2dyH3zI5ProW72wR1YV62pEj8JOlyjR37hOhf1O82yU0f0Ku+4SHWtO18Le//g8
+        w8zehRu8+Wme+RM8yjrHxjrHxjrHxjrHh9frF/VZ4096TRodAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="DECbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="DECbutton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DECbutton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DECbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="DECbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DECbutton.Name" xml:space="preserve">
+    <value>DECbutton</value>
+  </data>
+  <data name="&gt;&gt;DECbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DECbutton.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;DECbutton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="OPbutton.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="OPbutton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OPbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAFoAAAAvCAIAAADsJUonAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAIhJREFUaEPt0DEOwzAMBEH//9NKwwBewILqODMlWd1eixs5Qo54yHG92ozckCPk
+        CDlCjjjnmOvPmhlfc92QI+QIOUKOkCPkCDlCjpAj5Ag5Qo6QI+QIOUKOkCPkCDlCjpAj5Ag5Qo6QI+QI
+        OUKOOOd4mRm5IUfIEXKEHHF4/xs5Qo6QI+S4WesDVxpcrMHVbgUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="OPbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 19</value>
+  </data>
+  <data name="OPbutton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="OPbutton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="OPbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 47</value>
+  </data>
+  <data name="OPbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OPbutton.Name" xml:space="preserve">
+    <value>OPbutton</value>
+  </data>
+  <data name="&gt;&gt;OPbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OPbutton.Parent" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;OPbutton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditionBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="EditionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 155</value>
+  </data>
+  <data name="EditionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 304</value>
+  </data>
+  <data name="EditionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="EditionBox.Text" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="&gt;&gt;EditionBox.Name" xml:space="preserve">
+    <value>EditionBox</value>
+  </data>
+  <data name="&gt;&gt;EditionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditionBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;EditionBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ENbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 58</value>
+  </data>
+  <data name="ENbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="ENbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ENbutton.Text" xml:space="preserve">
+    <value>Angielski</value>
+  </data>
+  <data name="&gt;&gt;ENbutton.Name" xml:space="preserve">
+    <value>ENbutton</value>
+  </data>
+  <data name="&gt;&gt;ENbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ENbutton.Parent" xml:space="preserve">
+    <value>LanguageBox</value>
+  </data>
+  <data name="&gt;&gt;ENbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PLbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 26</value>
+  </data>
+  <data name="PLbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="PLbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PLbutton.Text" xml:space="preserve">
+    <value>Polski</value>
+  </data>
+  <data name="&gt;&gt;PLbutton.Name" xml:space="preserve">
+    <value>PLbutton</value>
+  </data>
+  <data name="&gt;&gt;PLbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PLbutton.Parent" xml:space="preserve">
+    <value>LanguageBox</value>
+  </data>
+  <data name="&gt;&gt;PLbutton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LanguageBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LanguageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 465</value>
+  </data>
+  <data name="LanguageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 85</value>
+  </data>
+  <data name="LanguageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LanguageBox.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Name" xml:space="preserve">
+    <value>LanguageBox</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LanguageBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Canvas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Canvas.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2000</value>
+  </data>
+  <data name="Canvas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2000</value>
+  </data>
+  <data name="Canvas.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Canvas.Name" xml:space="preserve">
+    <value>Canvas</value>
+  </data>
+  <data name="&gt;&gt;Canvas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Canvas.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Canvas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2000</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>594, 547</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 553</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="FileBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="EditionBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LanguageBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="0" RowSpan="3" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,200" /&gt;&lt;Rows Styles="Percent,33,Percent,67,Absolute,90" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 553</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BlockQ</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
