@@ -23,5 +23,5 @@ Change language - 'Język' box buttons (not implemented)
 
 FEATURES:
 
-Scrollable bitmap. Save/load function. Limit of start blocks (only 1 per diagram). Selecting and changing text content of block (stop and start blocks are unchangeable).
-New diagram pop-up window with height and length options. Deleting blocks deletes outgoing arrows. Moving selected diagram elemants. 
+Scrollable bitmap. Save/load function with own extension (*.bq) format. Limit of start blocks (only 1 per diagram). Selecting and changing text content of block (stop and start blocks are unchangeable).
+New diagram pop-up window with height and length options. Deleting blocks deletes outgoing arrows. Moving selected diagram elemants (however arrows stays in place - not implemented arrow movement with blocks). 
